@@ -1,0 +1,47 @@
+.clock {
+    width:600px;
+	position: absolute;
+	z-index: 0;
+}
+.time{
+	margin: 0 auto;
+	width: 600px;
+	position: relative;
+}
+.minute{
+    top: 118px;
+    width: 3px;
+    height: 368px;
+    position: absolute;
+    background: linear-gradient(black 50%, transparent 50%);
+    z-index: 6;
+    left: 298px;
+}
+.second{
+	top: 65px;
+    width: 3px;
+    height: 472px;
+    position: absolute;
+    background: linear-gradient(black 50%, transparent 50%);
+    z-index: 6;
+    left: 298px
+}
+.hours{
+	top: 174px;
+    width: 3px;
+    height: 254px;
+    position: absolute;
+    background: linear-gradient(yellow 50%, transparent 50%);
+    z-index: 4;
+    left: 298px;
+}
+#center-disc{
+	height: 15px; 
+	width: 15px;
+	border-radius: 50%;
+	background: black;
+	position: absolute;
+	left: 293px;
+	top: 293px;
+	z-index: 111;
+}
